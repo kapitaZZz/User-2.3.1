@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cars</title>
+</head>
+<body>
+
+<h1>Cars list</h1>
+<p>Quantity car to list:</p><br>
+
+
+<table border="1">
+  <tr>
+    <th>MODEL</th>
+    <th>MAXSPEED</th>
+    <th>TYPE</th>
+  </tr>
+  <tr th:each="car : ${messages}">
+    <td th:text="${car.model}"></td>
+    <td th:text="${car.maxSpeed}"></td>
+    <td th:text="${car.type}"></td>
+  </tr>
+</table>
+
+</body>
+</html>
