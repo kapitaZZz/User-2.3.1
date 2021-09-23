@@ -1,7 +1,7 @@
-package spring_crud.repository;
+package crud.repository;
 
 import org.springframework.stereotype.Repository;
-import spring_crud.model.User;
+import crud.model.User;
 
 
 import javax.persistence.EntityManager;

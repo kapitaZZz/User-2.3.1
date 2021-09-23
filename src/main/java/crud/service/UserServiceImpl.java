@@ -1,10 +1,10 @@
-package spring_crud.service;
+package crud.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import spring_crud.repository.UserRepository;
-import spring_crud.model.User;
+import crud.repository.UserRepository;
+import crud.model.User;
 
 import java.util.List;
 

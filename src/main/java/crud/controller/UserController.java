@@ -1,15 +1,12 @@
-package spring_crud.controller;
+package crud.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
-import spring_crud.model.User;
-import spring_crud.service.UserService;
-
-
-import java.util.List;
+import crud.model.User;
+import crud.service.UserService;
 
 @Controller
 public class UserController {

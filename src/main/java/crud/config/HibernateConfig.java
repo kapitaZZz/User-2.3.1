@@ -1,4 +1,4 @@
-package spring_crud.config;
+package crud.config;
 
 import org.hibernate.jpa.HibernatePersistenceProvider;
         import org.springframework.context.annotation.*;
@@ -16,7 +16,7 @@ import org.hibernate.jpa.HibernatePersistenceProvider;
 @PropertySource("classpath:db.properties")
 @EnableWebMvc
 @EnableTransactionManagement
-@ComponentScan("spring_crud")
+@ComponentScan("crud")
 public class HibernateConfig {
 
 

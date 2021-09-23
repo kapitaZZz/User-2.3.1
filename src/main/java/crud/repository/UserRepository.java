@@ -1,10 +1,11 @@
-package spring_crud.service;
+package crud.repository;
 
-import spring_crud.model.User;
+import crud.model.User;
 
 import java.util.List;
 
-public interface UserService {
+public interface UserRepository {
+
     void addUser(User user);
 
     void deleteUser(Long id);
